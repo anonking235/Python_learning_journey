@@ -20,13 +20,13 @@ print(items)
 # (You write this)
 
 tools = [
-    {"tool": "Django", "difficulty": "medium", "priority": "high"},
-    {"tool": "Docker", "difficulty": "hard", "priority": "high"},
-    {"tool": "flask", "difficulty": "medium", "priority": "high"},
+    {"tool": "Django", "difficulty": "medium", "priority": "high", "Progress": "20%"},
+    {"tool": "Docker", "difficulty": "hard", "priority": "high", "Progress": "40%"},
+    {"tool": "flask", "difficulty": "medium", "priority": "high", "Progress": "40%"},
 ]
 
 for tool in tools:
-    print(f"{tool['tool']} - Difficulty: {tool['difficulty']}, Priority: {tool['priority']}")
+    print(f"{tool['tool']} - Difficulty: {tool['difficulty']}, Priority: {tool['priority']}, Progress: {tool['Progress']}")
 
 #Done
 
